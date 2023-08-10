@@ -2,16 +2,16 @@
   <div class="home">
     <h2>
       Check out the meetup group
-      <a href="https://www.meetup.com/shenandoah-bitcoin-club/" target="_blank"
+      <a
+        href="https://www.meetup.com/western-mass-bitcoin-meetup/"
+        target="_blank"
         >on Meetup.com</a
       >
       to see when our next monthly meetup is.
     </h2>
-    <h1>Shenandoah Bitcoin Club</h1>
-    <p>Educating and collaborating on Bitcoin in the Shenandoah Valley.</p>
     <img
       alt="Bitcoin symbol"
-      src="../assets/shenandoahbitcoinlogo.png"
+      src="../assets/wmbm-banner.png"
       class="center-fit"
     />
   </div>

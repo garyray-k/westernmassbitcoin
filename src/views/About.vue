@@ -51,7 +51,7 @@
     </ul>
     <h4>
       <a
-        href="https://github.com/CodeChiefDotDev/shenandoahbitcoinclub/issues"
+        href="https://github.com/CodeChiefDotDev/westermassbitcoinclub/issues"
         target="_blank"
         class="ml-md-auto"
       >

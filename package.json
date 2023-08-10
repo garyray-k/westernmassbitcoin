@@ -1,5 +1,5 @@
 {
-	"name": "shenandoahbitcoinclub",
+	"name": "westermassbitcoinclub",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -51,7 +51,7 @@
 	},
 	"gh-pages-deploy": {
 		"staticpath": "dist",
-		"cname": "shenandoahbitcoin.club",
+		"cname": "westermassbitcoin.com",
 		"prep": [
 		  "build"
 		],

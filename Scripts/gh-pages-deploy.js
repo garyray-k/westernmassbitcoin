@@ -9,7 +9,7 @@
     await execa("npm", ["run", "build"]);
     // Understand if it's dist or build folder
     const folderName = existsSync("dist") ? "dist" : "build";
-    const website = 'shenandoahbitcoin.club';
+    const website = 'westermassbitcoin.com';
     writeFile(`${folderName}/CNAME`, website, err => {
       if (err) {
         console.error(err);
@@ -18,7 +18,7 @@
     });
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
-    await execa("echo", ["shenandoahbitcoin.club", ">", "CNAME"]);
+    await execa("echo", ["westermassbitcoin.com", ">", "CNAME"]);
     console.log("Pushing to gh-pages...");
     await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
     await execa("rm", ["-r", folderName]);
